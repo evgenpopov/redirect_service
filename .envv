@@ -1,0 +1,14 @@
+SECRET_KEY=django-insecure-2@!3iijt03j1x7x1a5--((jkqngm#22q#ib6_6t5yw^t+84eg
+DEBUG=True
+ALLOWED_HOSTS=localhost,127.0.0.1
+
+DB_NAME=redirect_service
+DB_USER=postgres
+DB_PASSWORD=postgres
+DB_HOST=db
+DB_PORT=5432
+
+REDIS_URL=redis://redis:6379/0
+REDIRECT_CACHE_TTL=300
+
+DJANGO_SETTINGS_MODULE=core.settings
