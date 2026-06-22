@@ -1,4 +1,4 @@
-.PHONY: install build up up-d down logs shell migrate makemigrations createsuperuser
+.PHONY: install build up up-d down logs shell migrate makemigrations createsuperuser test
 
 install:
 	pip install -r requirements.txt
@@ -29,3 +29,6 @@ makemigrations:
 
 createsuperuser:
 	docker compose exec web python manage.py createsuperuser
+
+test:
+	docker compose exec web python -m pytest
