@@ -38,9 +38,10 @@ http://localhost:8000/admin/ - login
 ## Makefile commands
 
 ```
-make build          
-make up             
-make down           
+make build
+make up
+make down
+make test
 make logs          
 make migrate        
 make makemigrations 
