@@ -11,6 +11,10 @@ Django, PostgreSQL, Redis, Docker + Makefile
 ## Quick start
 
 ```bash
+cp .env.example .env 
+```
+
+```bash
 make up
 ```
 http://localhost:8000
